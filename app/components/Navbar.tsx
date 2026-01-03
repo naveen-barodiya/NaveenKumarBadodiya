@@ -49,8 +49,8 @@ export default function Navbar() {
                         key={l.id}
                         onClick={() => scrollTo(l.id)}
                         className={`text-sm transition ${active === l.id
-                                ? "text-blue-400"
-                                : "text-gray-300 hover:text-white"
+                                ? "text-blue-400 cursor-pointer"
+                                : "text-gray-300 hover:text-white cursor-pointer"
                             }`}
                     >
                         {l.label}
