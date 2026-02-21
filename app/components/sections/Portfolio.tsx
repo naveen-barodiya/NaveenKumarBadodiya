@@ -44,6 +44,14 @@ const projects = [
         live: "https://shop-ease-xi-ten.vercel.app",
         code: "https://github.com/naveen-barodiya/shop-ease",
     },
+    {
+        title: "Travel Planner App",
+        tech: "React • Express.js • MongoDB ",
+        desc: "A travel planning application with user authentication and itinerary management.",
+        image: "/travel.png",
+        live: "https://travel-frontend-plan.vercel.app",
+        code: "https://github.com/naveen-barodiya/travel-frontend-plan",
+    },
 ];
 
 export default function Portfolio() {
